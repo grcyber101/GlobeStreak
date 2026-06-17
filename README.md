@@ -71,6 +71,12 @@ flutter build apk --debug
 
 The GitHub Actions workflow at `.github/workflows/deploy-web.yml` builds and deploys the web app to GitHub Pages on every push to `main`.
 
+For the first deployment, enable GitHub Pages in the repository:
+
+1. Open `Settings > Pages`.
+2. Set `Build and deployment > Source` to `GitHub Actions`.
+3. Re-run the latest `Deploy Flutter Web to GitHub Pages` workflow.
+
 Public URL:
 
 ```text
