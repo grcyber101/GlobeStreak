@@ -127,17 +127,19 @@ class _GlobeGuessWidgetState extends State<GlobeGuessWidget>
                     }
                   : null,
               child: RepaintBoundary(
-                child: CustomPaint(
-                  size: Size.infinite,
-                  painter: _GlobePainter(
-                    centerLat: centerLat,
-                    centerLng: centerLng,
-                    zoom: zoom,
-                    geometry: _renderGeometry,
-                    guessAnimation: _guessAnimation,
-                    pendingGuess: widget.pendingGuess,
-                    lastGuess: widget.lastGuess,
-                    enabled: widget.enabled,
+                child: ClipRect(
+                  child: CustomPaint(
+                    size: Size.infinite,
+                    painter: _GlobePainter(
+                      centerLat: centerLat,
+                      centerLng: centerLng,
+                      zoom: zoom,
+                      geometry: _renderGeometry,
+                      guessAnimation: _guessAnimation,
+                      pendingGuess: widget.pendingGuess,
+                      lastGuess: widget.lastGuess,
+                      enabled: widget.enabled,
+                    ),
                   ),
                 ),
               ),
