@@ -16,15 +16,23 @@ class MobileGameLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Stack(
+      fit: StackFit.expand,
+      clipBehavior: Clip.hardEdge,
       children: [
-        prompt,
-        const SizedBox(height: 10),
-        hud,
-        const SizedBox(height: 10),
-        Expanded(child: globe),
-        const SizedBox(height: 10),
-        results,
+        Positioned.fill(child: globe),
+        Positioned.fill(
+          child: Column(
+            children: [
+              prompt,
+              const SizedBox(height: 10),
+              hud,
+              const Spacer(),
+              const SizedBox(height: 10),
+              results,
+            ],
+          ),
+        ),
       ],
     );
   }
