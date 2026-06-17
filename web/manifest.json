@@ -1,0 +1,11 @@
+{
+  "name": "GlobeStreak",
+  "short_name": "GlobeStreak",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07111F",
+  "theme_color": "#00AEEF",
+  "description": "A no-API geography guessing streak game.",
+  "orientation": "any",
+  "icons": []
+}
