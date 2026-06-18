@@ -1,5 +1,5 @@
 name: geo_streak
-description: A no-API Flutter prototype for GlobeStreak, an endless city location guessing game.
+description: "What's your best streak?"
 publish_to: 'none'
 version: 0.1.0+1
 

@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#07111F",
   "theme_color": "#00AEEF",
-  "description": "A no-API geography guessing streak game.",
+  "description": "What's your best streak?",
   "orientation": "any",
   "icons": []
 }
