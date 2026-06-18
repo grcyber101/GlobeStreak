@@ -9,7 +9,7 @@ The project is structured as a web-first, mobile-friendly Flutter app that also 
 - Custom draggable and tappable globe game board.
 - Accurate Natural Earth 110m land, country border, and country polygon geometry.
 - Run rules: start with 3 globe lives, lose one over 250km or in another country, gain one under 100km with no life cap.
-- Seeded city dataset with difficulty and population metadata.
+- Seeded 80-city dataset with difficulty and population metadata.
 - Repository-based city access.
 - Local persistence through `shared_preferences`.
 - Statistics storage foundation.
